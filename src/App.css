@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+* {
+  background: #2b2e4a;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.list-items {
+  padding: 24px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.day {
+  font-family: 'Work Sans', Sans-Serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.affirmation {
+  font-family: 'Open Sans', Sans-Serif;
+  font-size: 15px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Work Sans', Sans-Serif;
+  font-size: 45px;
+  background-color: #2F4858;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Open Sans', Sans-Serif;
+  font-size: 15px;
+  background-color: #2F4858;
+}
+
+.center {
+  margin: 5vh 20vw;
+  width: 40vw;
+  min-height: 45vh;
+  padding: 3vh 8vw;
+  border-radius: 5px;
+  background-color: #2F4858;
+}
+
+button {
+  background-color: #829356;
+  color: white;
+  border: 2px solid #829356;
+  padding: 16px 32px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 5px;
+  margin-top: 48px;
+}
+
+.selected-affirmation {
+  font-family: 'Work Sans', Sans-Serif;
+  font-size: 25px;
+  font-weight: bold;
+  background: #2b2e4a;
+  margin-bottom: 48px;
+}
+
+.timer {
+  font-family: 'Work Sans', Sans-Serif;
+  font-size: 55px;
+  font-weight: bold;
+  background: #2b2e4a;
+  border: solid 6px #107896;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  text-align: center;
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.affirmation-wrapper {
+  text-align: center;
+  background: #2b2e4a;
+  margin: 5vh 20vw;
+  width: 40vw;
+  min-height: 45vh;
+  padding: 3vh 8vw;
 }
