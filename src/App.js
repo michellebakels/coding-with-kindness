@@ -17,7 +17,11 @@ function App() {
         {!showAffirmation ?
             <div className="center">
                 <h1>Intentional Kindness</h1>
-                <h2>actively practice kindness toward yourself with five minute daily affirmations</h2><br/>
+                <h2>
+                    actively practice kindness toward yourself with five minute daily affirmations
+                    <br/><br/>
+                    click a day of the week to begin
+                </h2>
                 {affirmations.map(affirmation => {
                     return (
                         <div
