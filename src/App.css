@@ -86,3 +86,10 @@ button {
   min-height: 45vh;
   padding: 3vh 8vw;
 }
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #2F4858;
+  margin: 24px;
+}

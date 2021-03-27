@@ -38,12 +38,13 @@ function App() {
                         </div>
                     )
                 })}
-
+                <footer>Thank you to Karla Cordero for writing the affirmations for Intentional Kindness</footer>
                 </div> :
             <div>
                 <Meditation affirmation={selectedAffirmation} setShowAffirmation={setShowAffirmation} />
             </div>
         }
+
 
     </div>
   );
